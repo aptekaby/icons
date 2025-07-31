@@ -33,6 +33,12 @@ import SortingIcon from "./sortingIcon/sortingIcon.svg";
 import SpecialOfferIcon from "./specialOfferIcon/specialOfferIcon.svg";
 import TrashIcon from "./trashIcon/trashIcon.svg";
 import VerificationIcon from "./verificationIcon/verificationIcon.svg";
+import ChevronIcon from "./chevronIcon/chevronIcon.svg";
+import CloseIcon from "./closeIcon/closeIcon.svg";
+import HeartIcon from "./heartIcon/heartIcon.svg";
+import HeartOutlineIcon from "./heartOutlineIcon/heartOutlineIcon.svg";
+import RadioCheckedIcon from "./radioCheckedIcon/radioCheckedIcon.svg";
+import SplashCirclesIcon from "./splashCirclesIcon/splashCirclesIcon.svg";
 
 export {
   ArrowIcon,
@@ -70,4 +76,10 @@ export {
   SpecialOfferIcon,
   TrashIcon,
   VerificationIcon,
+  ChevronIcon,
+  CloseIcon,
+  HeartIcon,
+  HeartOutlineIcon,
+  RadioCheckedIcon,
+  SplashCirclesIcon,
 };

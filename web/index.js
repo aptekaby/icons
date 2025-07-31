@@ -25,10 +25,16 @@ const SvgCatalogIcon = (props) => (React.createElement("svg", { width: 24, heigh
 const SvgCheckIcon = (props) => (React.createElement("svg", { width: 14, height: 14, fill: "none", color: "#fff", viewBox: "0 0 14 14", ...props },
     React.createElement("path", { fill: "currentColor", d: "M12.707 4.207a1 1 0 0 0-1.414-1.414zM5 10.5l-.707.707a1 1 0 0 0 1.414 0zM2.707 6.793a1 1 0 1 0-1.414 1.414zm8.586-4-7 7 1.414 1.414 7-7zm-10 5.414 3 3 1.414-1.414-3-3z" })));
 
+const SvgChevronIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "m7 4 6 6-6 6" })));
+
 const SvgClockIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#4485F9", viewBox: "0 0 20 20", ...props },
     React.createElement("path", { stroke: "currentColor", strokeWidth: 2, d: "M10.003 17.337a7.333 7.333 0 1 0 0-14.667 7.333 7.333 0 0 0 0 14.667Z" }),
     React.createElement("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.02 6.092h-.049a.584.584 0 0 0-.586.586v3.845c0 .285.146.553.399.7l3.38 2.028a.58.58 0 0 0 .798-.195.58.58 0 0 0-.203-.807l-3.152-1.873V6.678a.584.584 0 0 0-.587-.586", clipRule: "evenodd" }),
     React.createElement("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.02 6.092h-.049a.584.584 0 0 0-.586.586v3.845c0 .285.146.553.399.7l3.38 2.028a.58.58 0 0 0 .798-.195.58.58 0 0 0-.203-.807l-3.152-1.873V6.678a.584.584 0 0 0-.587-.586", clipRule: "evenodd" })));
+
+const SvgCloseIcon = (props) => (React.createElement("svg", { width: 16, height: 16, fill: "none", color: "#010713", viewBox: "0 0 16 16", ...props },
+    React.createElement("path", { fill: "currentColor", d: "M2.597 1.274a.936.936 0 0 0-1.323 1.323L6.677 8l-5.403 5.403a.936.936 0 1 0 1.323 1.323L8 9.323l5.403 5.403a.935.935 0 1 0 1.323-1.323L9.323 8l5.403-5.403a.936.936 0 1 0-1.323-1.323L8 6.677z" })));
 
 const SvgCompleteStepIcon = (props) => (React.createElement("svg", { width: 12, height: 12, fill: "none", color: "#34A853", viewBox: "0 0 12 12", ...props },
     React.createElement("circle", { cx: 6, cy: 6, r: 6, fill: "currentColor" }),
@@ -52,6 +58,12 @@ const SvgFilterIcon = (props) => (React.createElement("svg", { width: 32, height
     React.createElement("rect", { width: 7.086, height: 0.879, x: 17.949, y: 11.546, fill: "currentColor", stroke: "currentColor", strokeWidth: 0.879, rx: 0.439 }),
     React.createElement("rect", { width: 3.857, height: 0.879, x: 6.967, y: 11.546, fill: "currentColor", stroke: "currentColor", strokeWidth: 0.879, rx: 0.439 }),
     React.createElement("rect", { width: 3.857, height: 0.879, x: 21.176, y: 19.508, fill: "currentColor", stroke: "currentColor", strokeWidth: 0.879, rx: 0.439 })));
+
+const SvgHeartIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#FF3C6B", viewBox: "0 0 20 20", ...props },
+    React.createElement("path", { fill: "currentColor", d: "M14.41 1.46a5.26 5.26 0 0 0-2.557.704 5.03 5.03 0 0 0-1.847 1.847 5.03 5.03 0 0 0-1.848-1.847 5.26 5.26 0 0 0-2.557-.704 5.53 5.53 0 0 0-3.768 1.689A5.15 5.15 0 0 0 .395 6.91c0 4.356 9.17 11.544 9.17 11.544a.755.755 0 0 0 .88 0s9.172-7.173 9.172-11.544a5.15 5.15 0 0 0-1.439-3.761 5.53 5.53 0 0 0-3.767-1.689" })));
+
+const SvgHeartOutlineIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
+    React.createElement("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.656 1.46c-2.984 0-4.297 1.698-4.6 2.162a.085.085 0 0 1-.141-.002C8.662 1.572 6.652 1.46 5.412 1.46 4.15 1.46.342 2.63.392 6.97c.042 3.78 7.292 9.935 9.159 11.453.273.223.595.222.87 0 1.877-1.521 9.2-7.694 9.2-11.47 0-3.759-3.253-5.493-4.965-5.493m3.286 5.501c-.023 2.98-6.756 8.732-7.816 9.62a.21.21 0 0 1-.28 0c-1.062-.9-7.849-6.757-7.849-9.62 0-3.605 2.935-3.888 3.554-3.888 2.032-.005 3.36 1.45 3.996 2.368.188.27.672.262.853-.013.603-.92 1.892-2.363 4.036-2.363.612 0 3.53.662 3.506 3.896", clipRule: "evenodd" })));
 
 const SvgHomeIcon = (props) => (React.createElement("svg", { width: 24, height: 24, fill: "none", color: "#8A95A8", viewBox: "0 0 24 24", ...props },
     React.createElement("path", { fill: "currentColor", d: "M2 19.714V9.43q0-.543.266-1.029.267-.486.734-.8l7.5-5.143A2.56 2.56 0 0 1 12 2a2.56 2.56 0 0 1 1.5.457L21 7.6q.47.315.735.8.267.486.265 1.029v10.285q0 .943-.735 1.615T19.5 22h-3.75q-.53 0-.89-.33-.36-.329-.36-.813v-5.265q0-.486-.36-.814a1.28 1.28 0 0 0-.89-.33h-2.5q-.53 0-.89.33t-.36.813v5.266q0 .486-.36.815-.36.33-.89.328H4.5q-1.031 0-1.765-.67-.734-.672-.735-1.616" })));
@@ -108,6 +120,10 @@ const SvgPlusIcon = (props) => (React.createElement("svg", { width: 22, height: 
 const SvgProfileIcon = (props) => (React.createElement("svg", { width: 24, height: 24, fill: "none", color: "#8A95A8", viewBox: "0 0 24 24", ...props },
     React.createElement("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.775 11.589c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.478-10 10-10 10 4.477 10 10m-6.437-3.014a3.564 3.564 0 1 1-7.127 0 3.564 3.564 0 0 1 7.127 0m2.67 6.591a.65.65 0 0 1-.05.596c-1.004 1.623-3.883 2.949-6.183 2.949a7.75 7.75 0 0 1-6.031-2.866.73.73 0 0 1-.099-.798c.547-1.04 1.696-2.048 2.496-2.5.241-.137.532-.1.769.044.822.5 1.865 1.032 2.865 1.032.984 0 2.02-.514 2.83-1.007.257-.157.576-.186.835-.034.832.488 2.105 1.493 2.567 2.584", clipRule: "evenodd" })));
 
+const SvgRadioCheckedIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#4485F9", viewBox: "0 0 20 20", ...props },
+    React.createElement("circle", { cx: 9.999, cy: 9.999, r: 7.917, stroke: "currentColor", strokeWidth: 0.833 }),
+    React.createElement("circle", { cx: 9.999, cy: 9.999, r: 5.833, fill: "currentColor" })));
+
 const SvgRadioIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#8A95A8", viewBox: "0 0 20 20", ...props },
     React.createElement("circle", { cx: 9.999, cy: 9.999, r: 7.917, stroke: "currentColor", strokeWidth: 0.833 })));
 
@@ -136,6 +152,12 @@ const SvgSpecialOfferIcon = (props) => (React.createElement("svg", { width: 73, 
         React.createElement("clipPath", { id: "b" },
             React.createElement("path", { fill: "#fff", d: "M4 3h12v12H4z" })))));
 
+const SvgSplashCirclesIcon = (props) => (React.createElement("svg", { width: 467, height: 467, fill: "none", viewBox: "0 0 467 467", ...props },
+    React.createElement("circle", { cx: 233.5, cy: 233.5, r: 233.5, fill: "#D0E1FE" }),
+    React.createElement("circle", { cx: 233.5, cy: 233.5, r: 183.965, fill: "#fff" }),
+    React.createElement("circle", { cx: 233.499, cy: 233.5, r: 145.173, fill: "#A0C2FC" }),
+    React.createElement("circle", { cx: 233.5, cy: 233.5, r: 113.841, fill: "#4485F9" })));
+
 const SvgTrashIcon = (props) => (React.createElement("svg", { width: 21, height: 20, fill: "none", color: "#8A95A8", viewBox: "0 0 21 20", ...props },
     React.createElement("path", { fill: "currentColor", d: "M3.11 3.792a.72.72 0 1 0 0 1.44zm14.8 1.44a.72.72 0 0 0 0-1.44zM9.43 8.237a.72.72 0 1 0-1.44 0zM7.99 14a.72.72 0 0 0 1.44 0zm5.038-5.763a.72.72 0 0 0-1.44 0zM11.588 14a.72.72 0 1 0 1.44 0zM3.11 4.512v.72h14.8v-1.44H3.11zm4.991-.69h.72v-1.53H7.38v1.53zm4.818-1.53h-.72v1.53h1.44v-1.53zM12.83 2.2v.72a.63.63 0 0 1-.63-.626h1.44a.81.81 0 0 0-.81-.814zM8.1 2.293h.72a.63.63 0 0 1-.63.626V1.48a.81.81 0 0 0-.81.813zM5.018 5.23h-.72v12.376h1.44V5.23zm.089 12.47v.72h10.805v-1.44H5.107zM16 17.605h.72V5.23h-1.44v12.376zm-.089.093v.72c.478 0 .81-.396.81-.813h-1.44c0-.315.25-.627.63-.627zm-10.894-.093h-.72c0 .417.33.813.809.813v-1.44c.38 0 .63.313.63.627zm3.693-9.37h-.72V14h1.44V8.237zm3.597 0h-.72V14h1.44V8.237zM8.19 2.2v.72h2.32V1.48H8.19zm2.32 0v.72h2.32V1.48h-2.32z" })));
 
@@ -147,4 +169,4 @@ const SvgVerificationIcon = (props) => (React.createElement("svg", { width: 14, 
         React.createElement("clipPath", { id: "a" },
             React.createElement("path", { fill: "#fff", d: "M0 0h14v14H0z" })))));
 
-export { SvgArrowIcon as ArrowIcon, SvgBasketIcon as BasketIcon, SvgBellCroppedIcon as BellCroppedIcon, SvgBellIcon as BellIcon, SvgCartIcon as CartIcon, SvgCatalogIcon as CatalogIcon, SvgCheckIcon as CheckIcon, SvgClockIcon as ClockIcon, SvgCompleteStepIcon as CompleteStepIcon, SvgCreditCardIcon as CreditCardIcon, SvgDocumentIcon as DocumentIcon, SvgEmptyBoxIcon as EmptyBoxIcon, SvgFilterIcon as FilterIcon, SvgHomeIcon as HomeIcon, SvgImagePlaceholderIcon as ImagePlaceholderIcon, SvgInfoIcon as InfoIcon, SvgLocationIcon as LocationIcon, SvgLocationOutlineIcon as LocationOutlineIcon, SvgLockIcon as LockIcon, SvgLogoIcon as LogoIcon, SvgLogoutIcon as LogoutIcon, SvgMinusIcon as MinusIcon, SvgOptionsIcon as OptionsIcon, SvgPackageIcon as PackageIcon, SvgPhoneIcon as PhoneIcon, SvgPhoneOutlineIcon as PhoneOutlineIcon, SvgPlusIcon as PlusIcon, SvgProfileIcon as ProfileIcon, SvgRadioIcon as RadioIcon, SvgRoundCloseIcon as RoundCloseIcon, SvgSearchIcon as SearchIcon, SvgShortLogoIcon as ShortLogoIcon, SvgSortingIcon as SortingIcon, SvgSpecialOfferIcon as SpecialOfferIcon, SvgTrashIcon as TrashIcon, SvgVerificationIcon as VerificationIcon };
+export { SvgArrowIcon as ArrowIcon, SvgBasketIcon as BasketIcon, SvgBellCroppedIcon as BellCroppedIcon, SvgBellIcon as BellIcon, SvgCartIcon as CartIcon, SvgCatalogIcon as CatalogIcon, SvgCheckIcon as CheckIcon, SvgChevronIcon as ChevronIcon, SvgClockIcon as ClockIcon, SvgCloseIcon as CloseIcon, SvgCompleteStepIcon as CompleteStepIcon, SvgCreditCardIcon as CreditCardIcon, SvgDocumentIcon as DocumentIcon, SvgEmptyBoxIcon as EmptyBoxIcon, SvgFilterIcon as FilterIcon, SvgHeartIcon as HeartIcon, SvgHeartOutlineIcon as HeartOutlineIcon, SvgHomeIcon as HomeIcon, SvgImagePlaceholderIcon as ImagePlaceholderIcon, SvgInfoIcon as InfoIcon, SvgLocationIcon as LocationIcon, SvgLocationOutlineIcon as LocationOutlineIcon, SvgLockIcon as LockIcon, SvgLogoIcon as LogoIcon, SvgLogoutIcon as LogoutIcon, SvgMinusIcon as MinusIcon, SvgOptionsIcon as OptionsIcon, SvgPackageIcon as PackageIcon, SvgPhoneIcon as PhoneIcon, SvgPhoneOutlineIcon as PhoneOutlineIcon, SvgPlusIcon as PlusIcon, SvgProfileIcon as ProfileIcon, SvgRadioCheckedIcon as RadioCheckedIcon, SvgRadioIcon as RadioIcon, SvgRoundCloseIcon as RoundCloseIcon, SvgSearchIcon as SearchIcon, SvgShortLogoIcon as ShortLogoIcon, SvgSortingIcon as SortingIcon, SvgSpecialOfferIcon as SpecialOfferIcon, SvgSplashCirclesIcon as SplashCirclesIcon, SvgTrashIcon as TrashIcon, SvgVerificationIcon as VerificationIcon };
