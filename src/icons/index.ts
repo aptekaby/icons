@@ -39,6 +39,7 @@ import HeartIcon from "./heartIcon/heartIcon.svg";
 import HeartOutlineIcon from "./heartOutlineIcon/heartOutlineIcon.svg";
 import RadioCheckedIcon from "./radioCheckedIcon/radioCheckedIcon.svg";
 import SplashCirclesIcon from "./splashCirclesIcon/splashCirclesIcon.svg";
+import WarningIcon from "./warningIcon/warningIcon.svg";
 
 export {
   ArrowIcon,
@@ -82,4 +83,5 @@ export {
   HeartOutlineIcon,
   RadioCheckedIcon,
   SplashCirclesIcon,
+  WarningIcon,
 };

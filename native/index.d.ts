@@ -40,3 +40,4 @@ export { SpecialOfferIcon } from './specialOfferIcon';
 export { SplashCirclesIcon } from './splashCirclesIcon';
 export { TrashIcon } from './trashIcon';
 export { VerificationIcon } from './verificationIcon';
+export { WarningIcon } from './warningIcon';
