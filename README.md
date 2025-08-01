@@ -4,7 +4,7 @@
 Для установки библиотеки в качестве зависимости можно использовать команду: 
 
 ```sh
-npm install https://github.com/SosnovichRoman/icons.git
+npm install https://github.com/aptekaby/icons.git
 ```
 
 ## Структура проекта
