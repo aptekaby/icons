@@ -40,6 +40,10 @@ import HeartOutlineIcon from "./heartOutlineIcon/heartOutlineIcon.svg";
 import RadioCheckedIcon from "./radioCheckedIcon/radioCheckedIcon.svg";
 import SplashCirclesIcon from "./splashCirclesIcon/splashCirclesIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
+import LocationArrowIcon from "./locationArrowIcon/locationArrowIcon.svg";
+import MenuUnevenIcon from "./menuUnevenIcon/menuUnevenIcon.svg";
+import ArrowTriangleIcon from "./arrowTriangleIcon/arrowTriangleIcon.svg";
+import DeliveryTrackIcon from "./deliveryTrackIcon/deliveryTrackIcon.svg";
 
 export {
   ArrowIcon,
@@ -84,4 +88,8 @@ export {
   RadioCheckedIcon,
   SplashCirclesIcon,
   WarningIcon,
+  LocationArrowIcon,
+  MenuUnevenIcon,
+  ArrowTriangleIcon,
+  DeliveryTrackIcon,
 };
