@@ -11,6 +11,7 @@ export { ClockIcon } from './clockIcon';
 export { CloseIcon } from './closeIcon';
 export { CompleteStepIcon } from './completeStepIcon';
 export { CreditCardIcon } from './creditCardIcon';
+export { DeliveryCancelledIcon } from './deliveryCancelledIcon';
 export { DeliveryTrackIcon } from './deliveryTrackIcon';
 export { DocumentIcon } from './documentIcon';
 export { EmptyBoxIcon } from './emptyBoxIcon';

@@ -44,6 +44,7 @@ import LocationArrowIcon from "./locationArrowIcon/locationArrowIcon.svg";
 import MenuUnevenIcon from "./menuUnevenIcon/menuUnevenIcon.svg";
 import ArrowTriangleIcon from "./arrowTriangleIcon/arrowTriangleIcon.svg";
 import DeliveryTrackIcon from "./deliveryTrackIcon/deliveryTrackIcon.svg";
+import DeliveryCancelledIcon from "./deliveryCancelledIcon/deliveryCancelledIcon.svg";
 
 export {
   ArrowIcon,
@@ -92,4 +93,5 @@ export {
   MenuUnevenIcon,
   ArrowTriangleIcon,
   DeliveryTrackIcon,
+  DeliveryCancelledIcon,
 };
