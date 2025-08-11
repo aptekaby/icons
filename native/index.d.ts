@@ -19,6 +19,8 @@ export { FilterIcon } from './filterIcon';
 export { HeartIcon } from './heartIcon';
 export { HeartOutlineIcon } from './heartOutlineIcon';
 export { HomeIcon } from './homeIcon';
+export { IconTrash } from './iconTrash';
+export { IconTrash2 } from './iconTrash2';
 export { ImagePlaceholderIcon } from './imagePlaceholderIcon';
 export { InfoIcon } from './infoIcon';
 export { LocationArrowIcon } from './locationArrowIcon';
