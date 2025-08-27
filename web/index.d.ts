@@ -44,5 +44,6 @@ export { SortingIcon } from './sortingIcon';
 export { SpecialOfferIcon } from './specialOfferIcon';
 export { SplashCirclesIcon } from './splashCirclesIcon';
 export { TrashIcon } from './trashIcon';
+export { UpdateApp } from './updateApp';
 export { VerificationIcon } from './verificationIcon';
 export { WarningIcon } from './warningIcon';
