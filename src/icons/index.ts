@@ -46,6 +46,8 @@ import ArrowTriangleIcon from "./arrowTriangleIcon/arrowTriangleIcon.svg";
 import DeliveryTrackIcon from "./deliveryTrackIcon/deliveryTrackIcon.svg";
 import DeliveryCancelledIcon from "./deliveryCancelledIcon/deliveryCancelledIcon.svg";
 import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
+import MinusIconBold from "./minusIconBold/minusIconBold.svg";
+import PlusIconBold from "./plusIconBold/plusIconBold.svg";
 
 export {
   ArrowIcon,
@@ -96,4 +98,6 @@ export {
   DeliveryTrackIcon,
   DeliveryCancelledIcon,
   UpdateAppIcon,
+  MinusIconBold,
+  PlusIconBold,
 };
