@@ -51,13 +51,13 @@ const SvgDeliveryCancelledIcon = (props) => (React.createElement(Svg, { width: 8
     React.createElement(Path, { fill: "currentColor", d: "m37.233 25.1-5.523 4.235V8.41h12.867v20.923L39.04 25.1a1.45 1.45 0 0 0-.903-.31c-.327 0-.645.11-.903.31m30.442-9.232v-6.53a.923.923 0 0 0-.918-.919L47.54 8.411v8.381l19.218.008a.936.936 0 0 0 .918-.932M28.748 8.41 9.555 8.276a.936.936 0 0 0-.933.918v6.53a.95.95 0 0 0 .933.933l19.193.135zM82.5 58.905c-1.132 27.578-40.448 27.579-41.58 0C40.644 44.723 55.74 34.29 68.892 39.39A20.83 20.83 0 0 1 82.5 58.905m-18.702 0 7.892-7.877a1.482 1.482 0 0 0-2.088-2.103l-7.892 7.893-7.893-7.893a1.474 1.474 0 0 0-2.087 0 1.493 1.493 0 0 0 0 2.103l7.892 7.878-7.892 7.892a1.474 1.474 0 0 0 0 2.088 1.45 1.45 0 0 0 2.087 0l7.893-7.893 7.892 7.893c1.361 1.393 3.447-.732 2.088-2.088zM61.71 35.155c2.019-.003 4.03.256 5.982.77v-16.17H47.54V32.34a1.476 1.476 0 0 1-2.384 1.17l-7.019-5.375-7.019 5.375a1.51 1.51 0 0 1-1.555.163 1.49 1.49 0 0 1-.814-1.333V19.754H8.595v43.298a3.53 3.53 0 0 0 3.687 3.331h26.876c-5.215-14.941 6.657-31.51 22.552-31.23" })));
 
 const SvgDeliveryTrackIcon = (props) => (React.createElement(Svg, { width: 20, height: 20, fill: "none", color: "#4485F9", viewBox: "0 0 20 20", ...props },
-    React.createElement(G, { stroke: "currentColor", strokeLinecap: "round", clipPath: "url(#a)" },
+    React.createElement(G, { stroke: "currentColor", strokeLinecap: "round", clipPath: "url(#deliveryTrackIcon_svg__a)" },
         React.createElement(Path, { strokeLinejoin: "round", strokeMiterlimit: 1.5, strokeWidth: 1.8, d: "M6.667 15.833a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333m8.333 0a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333" }),
         React.createElement(Path, { strokeWidth: 1.8, d: "M8.376 14.167H12.5v-9.98c0-.154-.053-.3-.147-.408a.47.47 0 0 0-.353-.169H.834m3.875 10.557H3.001a.44.44 0 0 1-.192-.044.5.5 0 0 1-.162-.125.6.6 0 0 1-.108-.186.7.7 0 0 1-.038-.22V8.888" }),
         React.createElement(Path, { strokeLinejoin: "round", strokeWidth: 2, d: "M1.667 6.155H5" }),
         React.createElement(Path, { strokeWidth: 1.8, d: "M12.5 6.626h4.675a.46.46 0 0 1 .272.091c.081.06.145.145.185.245l1.491 3.796q.043.109.044.23V13.6a.6.6 0 0 1-.038.216.6.6 0 0 1-.109.184.5.5 0 0 1-.162.123.45.45 0 0 1-.191.043h-1.584m-4.583 0h.833" })),
     React.createElement(Defs, null,
-        React.createElement(ClipPath, { id: "a" },
+        React.createElement(ClipPath, { id: "deliveryTrackIcon_svg__a" },
             React.createElement(Path, { fill: "#fff", d: "M0 0h20v20H0z" })))));
 
 const SvgDocumentIcon = (props) => (React.createElement(Svg, { width: 22, height: 22, fill: "none", color: "#4485F9", viewBox: "0 0 22 22", ...props },
@@ -134,20 +134,20 @@ const SvgPhoneIcon = (props) => (React.createElement(Svg, { width: 20, height: 2
     React.createElement(Path, { fill: "currentColor", d: "m17.073 14.284-3.388-3.08a.833.833 0 0 0-1.159.036l-1.994 2.05c-.48-.09-1.445-.392-2.438-1.382-.994-.995-1.295-1.962-1.384-2.439l2.05-1.995a.833.833 0 0 0 .035-1.159L5.716 2.928a.833.833 0 0 0-1.16-.072L2.75 4.406a.83.83 0 0 0-.242.542c-.013.208-.25 5.143 3.576 8.971 3.338 3.338 7.52 3.582 8.671 3.582.169 0 .272-.005.3-.007a.83.83 0 0 0 .54-.242l1.55-1.81a.83.83 0 0 0-.071-1.158" })));
 
 const SvgPhoneOutlineIcon = (props) => (React.createElement(Svg, { width: 20, height: 20, fill: "none", color: "#4485F9", viewBox: "0 0 20 20", ...props },
-    React.createElement(G, { clipPath: "url(#a)" },
+    React.createElement(G, { clipPath: "url(#phoneOutlineIcon_svg__a)" },
         React.createElement(Path, { stroke: "currentColor", strokeWidth: 1.7, d: "M13.888 11.666c-1.11 1.111-1.11 2.222-2.222 2.222s-2.222-1.11-3.333-2.222S6.11 9.444 6.11 8.333 7.222 7.222 8.333 6.11C9.443 5 6.11 1.666 4.999 1.666c-1.11 0-3.333 3.333-3.333 3.333 0 2.223 2.283 6.728 4.444 8.89 2.162 2.16 6.667 4.444 8.89 4.444 0 0 3.333-2.223 3.333-3.334 0-1.11-3.334-4.444-4.445-3.333Z" })),
     React.createElement(Defs, null,
-        React.createElement(ClipPath, { id: "a" },
+        React.createElement(ClipPath, { id: "phoneOutlineIcon_svg__a" },
             React.createElement(Path, { fill: "#fff", d: "M0 0h20v20H0z" })))));
 
 const SvgPlusIcon = (props) => (React.createElement(Svg, { width: 22, height: 22, fill: "none", color: "#010713", viewBox: "0 0 22 22", ...props },
     React.createElement(Path, { fill: "currentColor", d: "M17.11 10.428h-5.538V4.889a.573.573 0 0 0-1.145 0v5.539H4.888a.573.573 0 0 0 0 1.145h5.539v5.538a.573.573 0 1 0 1.145 0v-5.538h5.538a.573.573 0 0 0 0-1.146" })));
 
 const SvgPlusIconBold = (props) => (React.createElement(Svg, { width: 16, height: 16, fill: "none", viewBox: "0 0 16 16", ...props },
-    React.createElement(G, { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 1.8, clipPath: "url(#a)" },
+    React.createElement(G, { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 1.8, clipPath: "url(#plusIconBold_svg__a)" },
         React.createElement(Path, { d: "M8.074 1.8v12.55M1.8 8.074h12.55" })),
     React.createElement(Defs, null,
-        React.createElement(ClipPath, { id: "a" },
+        React.createElement(ClipPath, { id: "plusIconBold_svg__a" },
             React.createElement(Path, { fill: "#fff", d: "M0 0h16v16H0z" })))));
 
 const SvgProfileIcon = (props) => (React.createElement(Svg, { width: 24, height: 24, fill: "none", color: "#8A95A8", viewBox: "0 0 24 24", ...props },
@@ -167,27 +167,27 @@ const SvgSearchIcon = (props) => (React.createElement(Svg, { width: 20, height: 
     React.createElement(Path, { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "m17.5 17.5-4.958-4.958m1.723-4.16a5.882 5.882 0 1 0-11.765 0 5.882 5.882 0 0 0 11.765 0" })));
 
 const SvgShortLogoIcon = (props) => (React.createElement(Svg, { width: 192, height: 192, fill: "none", color: "#fff", viewBox: "0 0 192 192", ...props },
-    React.createElement(G, { clipPath: "url(#a)" },
+    React.createElement(G, { clipPath: "url(#shortLogoIcon_svg__a)" },
         React.createElement(Path, { fill: "currentColor", d: "M192 0H0v192h192z" }),
         React.createElement(Path, { fill: "#010713", d: "M75.104 141.696q-8.46.001-15.075-2.941-6.618-2.996-10.472-8.821-3.801-5.88-3.8-14.648c0-4.917.901-9.055 2.702-12.396 1.806-3.346 4.26-6.033 7.366-8.071q4.658-3.056 10.583-4.614 5.984-1.56 12.545-2.19 7.711-.809 12.425-1.5 4.72-.754 6.844-2.191c1.417-.963 2.13-2.383 2.13-4.269v-.345c0-3.65-1.148-6.48-3.45-8.477q-3.392-2.996-9.667-2.996-6.619-.001-10.528 2.94c-2.605 1.922-4.335 4.345-5.175 7.266l-22.668-1.846c1.148-5.38 3.415-10.033 6.789-13.952 3.374-3.96 7.73-6.997 13.057-9.111q8.057-3.231 18.64-3.23 7.363.001 14.095 1.73 6.79 1.727 12.024 5.363c3.531 2.424 6.309 5.537 8.342 9.34q3.051 5.649 3.051 13.551v59.735h-23.245v-12.28h-.693c-1.417 2.769-3.314 5.207-5.697 7.322-2.377 2.073-5.235 3.711-8.574 4.902q-5.001 1.728-11.564 1.729zm7.016-16.954c3.602 0 6.79-.71 9.551-2.135q4.142-2.191 6.5-5.881 2.36-3.69 2.358-8.36v-9.4c-.769.502-1.821.963-3.167 1.384a56 56 0 0 1-4.431 1.095c-1.65.31-3.299.593-4.948.867q-2.475.343-4.487.634c-2.878.421-5.387 1.095-7.537 2.018q-3.225 1.383-5.008 3.747-1.783 2.304-1.781 5.764.001 5.018 3.622 7.671 3.679 2.595 9.323 2.596z" }),
         React.createElement(Path, { fill: "#FF3C6B", d: "M153.381 141.646c8.696 0 15.745-7.05 15.745-15.745s-7.049-15.745-15.745-15.745-15.744 7.049-15.744 15.745 7.049 15.745 15.744 15.745" })),
     React.createElement(Defs, null,
-        React.createElement(ClipPath, { id: "a" },
+        React.createElement(ClipPath, { id: "shortLogoIcon_svg__a" },
             React.createElement(Path, { fill: "currentColor", d: "M0 0h192v192H0z" })))));
 
 const SvgSortingIcon = (props) => (React.createElement(Svg, { width: 32, height: 32, fill: "none", color: "#010713", viewBox: "0 0 32 32", ...props },
     React.createElement(Path, { fill: "#fff", stroke: "currentColor", strokeWidth: 0.875, d: "M11.624 9.438c.116 0 .228.045.31.127l3.494 3.495a.438.438 0 0 1-.62.619l-2-2.001-.746-.747v11.194a.438.438 0 1 1-.875 0V10.931l-2.749 2.748a.437.437 0 0 1-.619-.62l3.496-3.494a.44.44 0 0 1 .309-.127Zm8.75 0a.44.44 0 0 1 .438.437v11.194l.747-.747 2-2.002v.001a.437.437 0 0 1 .619.618l-3.494 3.496a.44.44 0 0 1-.62 0L16.57 18.94h.001a.438.438 0 0 1 .619-.62l2 2.002.747.747V9.875a.44.44 0 0 1 .438-.437Z" })));
 
 const SvgSpecialOfferIcon = (props) => (React.createElement(Svg, { width: 73, height: 18, fill: "none", viewBox: "0 0 73 18", ...props },
-    React.createElement(Rect, { width: 73, height: 18, fill: "url(#a)", rx: 4 }),
-    React.createElement(G, { clipPath: "url(#b)" },
+    React.createElement(Rect, { width: 73, height: 18, fill: "url(#specialOfferIcon_svg__a)", rx: 4 }),
+    React.createElement(G, { clipPath: "url(#specialOfferIcon_svg__b)" },
         React.createElement(Path, { fill: "#fff", d: "M8.5 7.875a.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75m3 2.25a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75M15.25 9c0 .49-.352.856-.663 1.18-.176.185-.36.375-.428.543-.064.153-.068.407-.072.653-.006.458-.014.976-.374 1.337-.361.36-.88.368-1.337.375-.246.003-.5.007-.653.07-.168.07-.358.253-.543.43-.324.31-.69.662-1.18.662s-.856-.352-1.18-.663c-.185-.176-.375-.36-.543-.428-.153-.064-.407-.068-.653-.072-.458-.006-.976-.014-1.336-.374-.361-.361-.368-.88-.376-1.337-.003-.246-.007-.5-.07-.653-.07-.168-.252-.358-.43-.543-.31-.324-.662-.69-.662-1.18s.352-.856.663-1.18c.177-.185.36-.375.428-.543.064-.153.068-.407.071-.653.008-.458.015-.976.375-1.336.361-.361.88-.368 1.337-.376.246-.003.5-.007.653-.07.168-.07.358-.252.543-.43.324-.31.69-.662 1.18-.662s.856.352 1.18.663c.185.177.375.36.543.428.153.064.407.068.653.071.458.008.976.015 1.337.375.36.361.368.88.375 1.337.003.246.007.5.07.653.07.168.253.358.43.543.31.324.662.69.662 1.18M8.5 8.625a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25m3.64-1.235a.373.373 0 0 0 0-.53.375.375 0 0 0-.53 0l-3.75 3.75a.375.375 0 1 0 .53.53zm.485 3.11a1.125 1.125 0 1 0-2.25 0 1.125 1.125 0 0 0 2.25 0" })),
     React.createElement(Path, { fill: "#fff", d: "M19.87 13v-1.19h2.507q.832 0 1.26-.333.433-.34.433-.985v-.012q0-.427-.199-.714a1.2 1.2 0 0 0-.592-.434q-.387-.146-.96-.146h-2.45V8.102h2.21q.802 0 1.212-.3.416-.303.416-.878v-.012q0-.557-.38-.867-.375-.31-1.056-.31H19.87v-1.19h2.778q.809 0 1.382.258.575.252.885.726.31.47.31 1.12v.011q0 .445-.204.832a1.9 1.9 0 0 1-.54.645 1.7 1.7 0 0 1-.761.328v.105q.568.047.996.323.434.274.674.714.246.44.246.985v.011q0 .739-.352 1.278-.351.54-1.002.832-.645.287-1.547.287zm-.768 0V4.545h1.529V13zm7.538 0V6.596h1.477v1.927h1.265q1.125 0 1.787.61.669.603.668 1.623v.012q0 1.02-.668 1.628-.661.604-1.787.604zm2.543-3.34h-1.066v2.197h1.066q.54 0 .85-.298.31-.306.31-.797v-.012q0-.492-.316-.791-.31-.3-.844-.299M32.886 13V6.596h1.483V13zm7.094-5.268h-2.854V13H35.65V6.596h4.33zm3.449 5.397q-.962 0-1.659-.399a2.7 2.7 0 0 1-1.066-1.148q-.37-.744-.37-1.781v-.012q0-1.031.376-1.775.375-.744 1.066-1.143.698-.404 1.652-.404.956 0 1.647.398.69.399 1.066 1.149.375.744.375 1.775v.012q0 1.037-.375 1.781-.37.744-1.06 1.148-.691.399-1.653.399m0-1.195q.503 0 .85-.252.35-.258.538-.733.188-.474.188-1.148v-.012q0-.668-.188-1.143-.187-.48-.539-.732a1.42 1.42 0 0 0-.85-.252q-.502 0-.855.252-.351.252-.539.732-.182.476-.182 1.143v.012q0 .674.182 1.154.188.474.539.727.352.252.855.252m4.603 2.736h-1.354v-2.824h.504q.351-.21.516-.733.17-.52.21-1.166l.23-3.351h4.839v5.25h.984v2.824h-1.353V13h-4.576zm3.468-2.824V7.75h-2.103l-.164 2.273a5 5 0 0 1-.152.973 2.2 2.2 0 0 1-.323.744v.106zM58.764 13v-2.73H56.08V13h-1.477V6.596h1.477v2.531h2.684V6.596h1.476V13zm5.54.129q-.96 0-1.658-.399a2.7 2.7 0 0 1-1.066-1.148q-.37-.744-.37-1.781v-.012q0-1.031.376-1.775.375-.744 1.066-1.143.698-.404 1.652-.404.955 0 1.647.398.69.399 1.066 1.149.375.744.375 1.775v.012q0 1.037-.375 1.781-.37.744-1.06 1.148-.692.399-1.653.399m0-1.195q.505 0 .85-.252.351-.258.539-.733.188-.474.188-1.148v-.012q0-.668-.188-1.143-.187-.48-.54-.732a1.42 1.42 0 0 0-.849-.252q-.503 0-.855.252-.351.252-.54.732-.18.476-.18 1.143v.012q0 .674.18 1.154.189.474.54.727.352.252.855.252" }),
     React.createElement(Defs, null,
-        React.createElement(LinearGradient, { id: "a", x1: -4.525, x2: 80.541, y1: 9, y2: 9, gradientUnits: "userSpaceOnUse" },
+        React.createElement(LinearGradient, { id: "specialOfferIcon_svg__a", x1: -4.525, x2: 80.541, y1: 9, y2: 9, gradientUnits: "userSpaceOnUse" },
             React.createElement(Stop, { stopColor: "#6B75FE" }),
             React.createElement(Stop, { offset: 1, stopColor: "#FF3C6B" })),
-        React.createElement(ClipPath, { id: "b" },
+        React.createElement(ClipPath, { id: "specialOfferIcon_svg__b" },
             React.createElement(Path, { fill: "#fff", d: "M4 3h12v12H4z" })))));
 
 const SvgSplashCirclesIcon = (props) => (React.createElement(Svg, { width: 467, height: 467, fill: "none", viewBox: "0 0 467 467", ...props },
@@ -204,11 +204,11 @@ const SvgUpdateAppIcon = (props) => (React.createElement(Svg, { width: 88, heigh
     React.createElement(Path, { fill: "currentColor", d: "M62.98 21.034c-10.175 0-18.414 8.239-18.414 18.414S52.805 57.86 62.98 57.86s18.413-8.238 18.413-18.413-8.238-18.414-18.413-18.414m0 28.979a10.56 10.56 0 0 1-10.565-10.565c0-.636.52-1.157 1.156-1.157s1.156.52 1.156 1.157c0 4.567 3.7 8.267 8.253 8.267 4.552 0 8.267-3.7 8.267-8.253 0-4.567-3.7-8.267-8.253-8.267a8.24 8.24 0 0 0-6.056 2.645h1.648c.636 0 1.156.52 1.156 1.156a1.16 1.16 0 0 1-1.156 1.156h-4.148a1.16 1.16 0 0 1-1.156-1.156v-4.061c0-.636.52-1.157 1.156-1.157s1.156.52 1.156 1.157v.968c4.163-4.09 10.854-4.018 14.945.145 4.09 4.162 4.018 10.854-.145 14.944a10.6 10.6 0 0 1-7.414 3.02" })));
 
 const SvgVerificationIcon = (props) => (React.createElement(Svg, { width: 14, height: 14, fill: "none", color: "#4485F9", viewBox: "0 0 14 14", ...props },
-    React.createElement(G, { clipPath: "url(#a)" },
+    React.createElement(G, { clipPath: "url(#verificationIcon_svg__a)" },
         React.createElement(Path, { fill: "currentColor", d: "M13.563 7c0 .56-.689 1.022-.826 1.538-.143.534.217 1.277-.053 1.744-.274.475-1.1.532-1.485.917s-.442 1.21-.917 1.485c-.467.27-1.21-.09-1.744.053-.516.137-.978.825-1.538.825s-1.022-.687-1.538-.825c-.534-.143-1.277.217-1.744-.053-.475-.274-.532-1.1-.917-1.485s-1.21-.442-1.485-.917c-.27-.467.09-1.21-.053-1.744C1.125 8.022.438 7.56.438 7s.687-1.022.825-1.538c.142-.534-.217-1.277.053-1.744.274-.475 1.1-.532 1.485-.917s.442-1.21.917-1.485c.467-.27 1.21.09 1.744-.053C5.978 1.125 6.44.438 7 .438s1.022.687 1.538.825c.534.142 1.277-.217 1.744.053.475.274.532 1.1.917 1.485s1.21.442 1.485.917c.27.467-.09 1.21.053 1.744.137.516.825.978.825 1.538" }),
         React.createElement(Path, { fill: "#FFFCEE", d: "M8.897 5.044 6.399 7.542 5.104 6.25a.72.72 0 0 0-1.019 1.018l1.817 1.817a.7.7 0 0 0 .991 0l3.02-3.021a.72.72 0 0 0-1.016-1.019" })),
     React.createElement(Defs, null,
-        React.createElement(ClipPath, { id: "a" },
+        React.createElement(ClipPath, { id: "verificationIcon_svg__a" },
             React.createElement(Path, { fill: "#fff", d: "M0 0h14v14H0z" })))));
 
 const SvgWarningIcon = (props) => (React.createElement(Svg, { width: 50, height: 50, fill: "none", color: "#FF6F42", viewBox: "0 0 50 50", ...props },

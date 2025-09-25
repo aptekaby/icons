@@ -18,7 +18,8 @@
         "params": {
           "attrs": "xmlns"
         }
-      }
+      },
+      "prefixIds"
     ]
   }
 }
