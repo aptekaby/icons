@@ -7,6 +7,12 @@
     "./native": "./native/index.js",
     "./web": "./web/index.js"
   },
+  "private": true,
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "typesVersions": {
     "*": {
       "native": [
