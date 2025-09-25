@@ -36,6 +36,12 @@
       }
     ],
     "@semantic-release/github",
-    "semantic-release-ado"
+    "semantic-release-ado",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ]
   ]
 }
