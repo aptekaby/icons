@@ -11,7 +11,8 @@
   "release": {
     "branches": [
       "main"
-    ]
+    ],
+    "tagFormat": "${version}"
   },
   "typesVersions": {
     "*": {
