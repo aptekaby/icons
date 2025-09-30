@@ -4,6 +4,7 @@ export { BasketIcon } from './basketIcon';
 export { BellCroppedIcon } from './bellCroppedIcon';
 export { BellIcon } from './bellIcon';
 export { CartIcon } from './cartIcon';
+export { CartOutlineIcon } from './cartOutlineIcon';
 export { CatalogIcon } from './catalogIcon';
 export { CheckIcon } from './checkIcon';
 export { ChevronIcon } from './chevronIcon';
