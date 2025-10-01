@@ -6,6 +6,7 @@ export { BellIcon } from './bellIcon';
 export { CartIcon } from './cartIcon';
 export { CartOutlineIcon } from './cartOutlineIcon';
 export { CatalogIcon } from './catalogIcon';
+export { CatalogMenuIcon } from './catalogMenuIcon';
 export { CheckIcon } from './checkIcon';
 export { ChevronIcon } from './chevronIcon';
 export { ClockIcon } from './clockIcon';
