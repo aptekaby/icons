@@ -29,6 +29,7 @@ export { LocationOutlineIcon } from './locationOutlineIcon';
 export { LockIcon } from './lockIcon';
 export { LogoIcon } from './logoIcon';
 export { LogoutIcon } from './logoutIcon';
+export { MailIcon } from './mailIcon';
 export { MenuUnevenIcon } from './menuUnevenIcon';
 export { MinusIcon } from './minusIcon';
 export { MinusIconBold } from './minusIconBold';
