@@ -48,6 +48,17 @@ import DeliveryCancelledIcon from "./deliveryCancelledIcon/deliveryCancelledIcon
 import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
 import MinusIconBold from "./minusIconBold/minusIconBold.svg";
 import PlusIconBold from "./plusIconBold/plusIconBold.svg";
+import BadsIcon from "./badsIcon/badsIcon.svg";
+import ArrowNoPaddingIcon from "./arrowNoPaddingIcon/arrowNoPaddingIcon.svg";
+import CreamIcon from "./creamIcon/creamIcon.svg";
+import DrugIcon from "./drugIcon/drugIcon.svg";
+import GlassesIcon from "./glassesIcon/glassesIcon.svg";
+import InsoleIcon from "./insoleIcon/insoleIcon.svg";
+import PacifierIcon from "./pacifierIcon/pacifierIcon.svg";
+import ThermometrIcon from "./thermometrIcon/thermometrIcon.svg";
+import ToothbrushIcon from "./toothbrushIcon/toothbrushIcon.svg";
+import PlasterIcon from "./plasterIcon/plasterIcon.svg";
+import CatalogMenuIcon from "./catalogMenuIcon/catalogMenuIcon.svg";
 
 export {
   ArrowIcon,
@@ -100,6 +111,17 @@ export {
   UpdateAppIcon,
   MinusIconBold,
   PlusIconBold,
+  CatalogMenuIcon,
+  BadsIcon,
+  ArrowNoPaddingIcon,
+  CreamIcon,
+  DrugIcon,
+  GlassesIcon,
+  InsoleIcon,
+  PacifierIcon,
+  ThermometrIcon,
+  ToothbrushIcon,
+  PlasterIcon,
 };
 
 /** test */
