@@ -59,6 +59,9 @@ import ThermometrIcon from "./thermometrIcon/thermometrIcon.svg";
 import ToothbrushIcon from "./toothbrushIcon/toothbrushIcon.svg";
 import PlasterIcon from "./plasterIcon/plasterIcon.svg";
 import CatalogMenuIcon from "./catalogMenuIcon/catalogMenuIcon.svg";
+import FilterWebIcon from "./filterWebIcon/filterWebIcon.svg";
+import GridIcon from "./gridIcon/gridIcon.svg";
+import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
 
 export {
   ArrowIcon,
@@ -122,6 +125,9 @@ export {
   ThermometrIcon,
   ToothbrushIcon,
   PlasterIcon,
+  FilterWebIcon,
+  GridIcon,
+  HorizontalGridIcon,
 };
 
 /** test */
