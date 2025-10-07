@@ -62,6 +62,7 @@ import CatalogMenuIcon from "./catalogMenuIcon/catalogMenuIcon.svg";
 import FilterWebIcon from "./filterWebIcon/filterWebIcon.svg";
 import GridIcon from "./gridIcon/gridIcon.svg";
 import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
+import CloseWebIcon from "./closeWebIcon/closeWebIcon.svg";
 
 export {
   ArrowIcon,
@@ -128,6 +129,7 @@ export {
   FilterWebIcon,
   GridIcon,
   HorizontalGridIcon,
+  CloseWebIcon,
 };
 
 /** test */
