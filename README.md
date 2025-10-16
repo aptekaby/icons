@@ -1,4 +1,7 @@
 # Icons
+
+> **Нигде не используется**: CreamIcon, DrugIcon, GlassesIcon, InsoleIcon, PacifierIcon, PlasterIcon, ThermometrIcon, ToothbrushIcon, BadsIcon.
+
 ## Установка
 
 Для установки библиотеки в качестве зависимости можно использовать команду: 
