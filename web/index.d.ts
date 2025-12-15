@@ -23,6 +23,8 @@ export { DocumentIcon } from './documentIcon';
 export { DrugIcon } from './drugIcon';
 export { EmptyBoxIcon } from './emptyBoxIcon';
 export { ErrorIcon } from './errorIcon';
+export { FavouriteIcon } from './favouriteIcon';
+export { FavouritePressedIcon } from './favouritePressedIcon';
 export { FilterIcon } from './filterIcon';
 export { FilterWebIcon } from './filterWebIcon';
 export { GlassesIcon } from './glassesIcon';

@@ -63,6 +63,8 @@ import FilterWebIcon from "./filterWebIcon/filterWebIcon.svg";
 import GridIcon from "./gridIcon/gridIcon.svg";
 import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
 import CloseWebIcon from "./closeWebIcon/closeWebIcon.svg";
+import FavouriteIconIcon from "./favouriteIconIcon/favouriteIconIcon.svg";
+import FavouritePressedIconIcon from "./favouritePressedIconIcon/favouritePressedIconIcon.svg";
 
 export {
   ArrowIcon,
@@ -130,6 +132,8 @@ export {
   GridIcon,
   HorizontalGridIcon,
   CloseWebIcon,
+  FavouriteIconIcon,
+  FavouritePressedIconIcon,
 };
 
 /** test */
