@@ -65,6 +65,34 @@ import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
 import CloseWebIcon from "./closeWebIcon/closeWebIcon.svg";
 import FavouriteIconIcon from "./favouriteIconIcon/favouriteIconIcon.svg";
 import FavouritePressedIconIcon from "./favouritePressedIconIcon/favouritePressedIconIcon.svg";
+import ArrowIconV2 from "./arrowIconV2/arrowIconV2.svg";
+import CartIconV2 from "./cartIconV2/cartIconV2.svg";
+import CheckboxIconV2 from "./checkboxIconV2/checkboxIconV2.svg";
+import CheckboxPressedIconV2 from "./checkboxPressedIconV2/checkboxPressedIconV2.svg";
+import ChevronIconV2 from "./chevronIconV2/chevronIconV2.svg";
+import ClockIconV2 from "./clockIconV2/clockIconV2.svg";
+import CloseIconV2 from "./closeIconV2/closeIconV2.svg";
+import CreditCardIconV2 from "./creditCardIconV2/creditCardIconV2.svg";
+import DocumentIconV2 from "./documentIconV2/documentIconV2.svg";
+import EditIconV2 from "./editIconV2/editIconV2.svg";
+import FilterIconV2 from "./filterIconV2/filterIconV2.svg";
+import ListIconV2 from "./listIconV2/listIconV2.svg";
+import LocationArrowIconV2 from "./locationArrowIconV2/locationArrowIconV2.svg";
+import LocationFilledIconV2 from "./locationFilledIconV2/locationFilledIconV2.svg";
+import LocationIconV2 from "./locationIconV2/locationIconV2.svg";
+import MailIconV2 from "./mailIconV2/mailIconV2.svg";
+import MenuIconV2 from "./menuIconV2/menuIconV2.svg";
+import MinusIconV2 from "./minusIconV2/minusIconV2.svg";
+import PackageIconV2 from "./packageIconV2/packageIconV2.svg";
+import PhoneFilledIconV2 from "./phoneFilledIconV2/phoneFilledIconV2.svg";
+import PhoneIconV2 from "./phoneIconV2/phoneIconV2.svg";
+import PlusIconV2 from "./plusIconV2/plusIconV2.svg";
+import RoundCloseIconV2 from "./roundCloseIconV2/roundCloseIconV2.svg";
+import SaleIconV2 from "./saleIconV2/saleIconV2.svg";
+import TriangleIconV2 from "./triangleIconV2/triangleIconV2.svg";
+import TrashIconV2 from "./trashIconV2/trashIconV2.svg";
+import UserIconV2 from "./userIconV2/userIconV2.svg";
+import SearchIconV2 from "./searchIconV2/searchIconV2.svg";
 
 export {
   ArrowIcon,
@@ -134,6 +162,34 @@ export {
   CloseWebIcon,
   FavouriteIconIcon,
   FavouritePressedIconIcon,
+  ArrowIconV2,
+  CartIconV2,
+  CheckboxIconV2,
+  CheckboxPressedIconV2,
+  ChevronIconV2,
+  ClockIconV2,
+  CloseIconV2,
+  CreditCardIconV2,
+  DocumentIconV2,
+  EditIconV2,
+  FilterIconV2,
+  ListIconV2,
+  LocationArrowIconV2,
+  LocationFilledIconV2,
+  LocationIconV2,
+  MailIconV2,
+  MenuIconV2,
+  MinusIconV2,
+  PackageIconV2,
+  PhoneFilledIconV2,
+  PhoneIconV2,
+  PlusIconV2,
+  RoundCloseIconV2,
+  SaleIconV2,
+  TriangleIconV2,
+  TrashIconV2,
+  UserIconV2,
+  SearchIconV2,
 };
 
 /** test */
