@@ -63,8 +63,6 @@ import FilterWebIcon from "./filterWebIcon/filterWebIcon.svg";
 import GridIcon from "./gridIcon/gridIcon.svg";
 import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
 import CloseWebIcon from "./closeWebIcon/closeWebIcon.svg";
-import FavouriteIconIcon from "./favouriteIconIcon/favouriteIconIcon.svg";
-import FavouritePressedIconIcon from "./favouritePressedIconIcon/favouritePressedIconIcon.svg";
 import ArrowIconV2 from "./arrowIconV2/arrowIconV2.svg";
 import CartIconV2 from "./cartIconV2/cartIconV2.svg";
 import CheckboxIconV2 from "./checkboxIconV2/checkboxIconV2.svg";
@@ -93,6 +91,12 @@ import TriangleIconV2 from "./triangleIconV2/triangleIconV2.svg";
 import TrashIconV2 from "./trashIconV2/trashIconV2.svg";
 import UserIconV2 from "./userIconV2/userIconV2.svg";
 import SearchIconV2 from "./searchIconV2/searchIconV2.svg";
+import EyeClosedIcon from "./eyeClosedIcon/eyeClosedIcon.svg";
+import EyeOpenedIcon from "./eyeOpenedIcon/eyeOpenedIcon.svg";
+import FavouriteFilledIcon from "./favouriteFilledIcon/favouriteFilledIcon.svg";
+import FavouriteIcon from "./favouriteIcon/favouriteIcon.svg";
+import FavouriteWhiteBaseIcon from "./favouriteWhiteBaseIcon/favouriteWhiteBaseIcon.svg";
+import SaleGradientIcon from "./saleGradientIcon/saleGradientIcon.svg";
 
 export {
   ArrowIcon,
@@ -160,8 +164,6 @@ export {
   GridIcon,
   HorizontalGridIcon,
   CloseWebIcon,
-  FavouriteIconIcon,
-  FavouritePressedIconIcon,
   ArrowIconV2,
   CartIconV2,
   CheckboxIconV2,
@@ -190,6 +192,12 @@ export {
   TrashIconV2,
   UserIconV2,
   SearchIconV2,
+  SaleGradientIcon,
+  EyeClosedIcon,
+  EyeOpenedIcon,
+  FavouriteFilledIcon,
+  FavouriteIcon,
+  FavouriteWhiteBaseIcon,
 };
 
 /** test */
