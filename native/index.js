@@ -280,7 +280,7 @@ const SvgPhoneIcon = (props) => (React.createElement(Svg, { width: 20, height: 2
     React.createElement(Path, { fill: "currentColor", d: "m17.073 14.284-3.388-3.08a.833.833 0 0 0-1.159.036l-1.994 2.05c-.48-.09-1.445-.392-2.438-1.382-.994-.995-1.295-1.962-1.384-2.439l2.05-1.995a.833.833 0 0 0 .035-1.159L5.716 2.928a.833.833 0 0 0-1.16-.072L2.75 4.406a.83.83 0 0 0-.242.542c-.013.208-.25 5.143 3.576 8.971 3.338 3.338 7.52 3.582 8.671 3.582.169 0 .272-.005.3-.007a.83.83 0 0 0 .54-.242l1.55-1.81a.83.83 0 0 0-.071-1.158" })));
 
 const SvgPhoneIconV2 = (props) => (React.createElement(Svg, { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement(Path, { stroke: "currentColor", strokeWidth: 1.6, d: "M13 11c-1 1-1 2-2 2s-2-1-3-2-2-2-2-3 1-1 2-2-2-4-3-4-3 3-3 3c0 2 2.055 6.055 4 8s6 4 8 4c0 0 3-2 3-3s-3-4-4-3Z" })));
+    React.createElement(Path, { stroke: "currentColor", strokeWidth: 1.65, d: "M13 11c-1 1-1 2-2 2s-2-1-3-2-2-2-2-3 1-1 2-2-2-4-3-4-3 3-3 3c0 2 2.055 6.055 4 8s6 4 8 4c0 0 3-2 3-3s-3-4-4-3Z" })));
 
 const SvgPhoneOutlineIcon = (props) => (React.createElement(Svg, { width: 20, height: 20, fill: "none", color: "#4485F9", viewBox: "0 0 20 20", ...props },
     React.createElement(G, { clipPath: "url(#phoneOutlineIcon_svg__a)" },
