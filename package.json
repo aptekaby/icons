@@ -1,6 +1,6 @@
 {
   "name": "icons",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "Apteka.by icons kit",
   "types": "./native/index.d.ts",
   "exports": {
@@ -53,6 +53,7 @@
     "commitlint": "^19.8.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
+    "prettier": "^3.7.4",
     "react": "^19.1.0",
     "react-native-svg": "^15.12.0",
     "rollup": "^4.44.2",
