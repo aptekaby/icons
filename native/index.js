@@ -351,8 +351,8 @@ const SvgShortLogoIcon = (props) => (React.createElement(Svg, { width: 192, heig
         React.createElement(ClipPath, { id: "shortLogoIcon_svg__a" },
             React.createElement(Path, { fill: "currentColor", d: "M0 0h192v192H0z" })))));
 
-const SvgSortingIcon = (props) => (React.createElement(Svg, { width: 32, height: 32, fill: "none", color: "#010713", viewBox: "0 0 32 32", ...props },
-    React.createElement(Path, { fill: "#fff", stroke: "currentColor", strokeWidth: 0.875, d: "M11.624 9.438c.116 0 .228.045.31.127l3.494 3.495a.438.438 0 0 1-.62.619l-2-2.001-.746-.747v11.194a.438.438 0 1 1-.875 0V10.931l-2.749 2.748a.437.437 0 0 1-.619-.62l3.496-3.494a.44.44 0 0 1 .309-.127Zm8.75 0a.44.44 0 0 1 .438.437v11.194l.747-.747 2-2.002v.001a.437.437 0 0 1 .619.618l-3.494 3.496a.44.44 0 0 1-.62 0L16.57 18.94h.001a.438.438 0 0 1 .619-.62l2 2.002.747.747V9.875a.44.44 0 0 1 .438-.437Z" })));
+const SvgSortingIcon = (props) => (React.createElement(Svg, { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
+    React.createElement(Path, { fill: "#fff", stroke: "currentColor", strokeWidth: 0.875, d: "M5.624 3.438c.116 0 .228.045.31.127L9.428 7.06a.437.437 0 0 1-.62.619l-2-2.001-.746-.747v11.194a.438.438 0 1 1-.875 0V4.931L2.438 7.679a.438.438 0 0 1-.619-.62l3.495-3.494a.44.44 0 0 1 .31-.127Zm8.75 0a.44.44 0 0 1 .438.437v11.194l.747-.747 2-2.002v.001a.437.437 0 0 1 .619.619l-3.494 3.495a.44.44 0 0 1-.62 0L10.57 12.94h.001a.438.438 0 0 1 .618-.62l2.002 2.002.747.747V3.875a.44.44 0 0 1 .437-.437Z" })));
 
 const SvgSpecialOfferIcon = (props) => (React.createElement(Svg, { width: 74, height: 20, fill: "none", viewBox: "0 0 74 20", ...props },
     React.createElement(Rect, { width: 74, height: 20, fill: "url(#specialOfferIcon_svg__a)", rx: 6 }),
