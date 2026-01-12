@@ -13,6 +13,7 @@ export { CloseIcon } from './closeIcon';
 export { CompleteStepIcon } from './completeStepIcon';
 export { CreditCardIcon } from './creditCardIcon';
 export { DeliveryCancelledIcon } from './deliveryCancelledIcon';
+export { DeliveryTrackIcon } from './deliveryTrackIcon';
 export { DocumentIcon } from './documentIcon';
 export { EditIcon } from './editIcon';
 export { EmptyBoxIcon } from './emptyBoxIcon';
