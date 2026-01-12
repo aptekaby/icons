@@ -1,6 +1,6 @@
 {
   "name": "icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Apteka.by icons kit",
   "types": "./native/index.d.ts",
   "exports": {
@@ -31,7 +31,7 @@
     "build:web": "npx @svgr/cli --config-file ./svgr.config.web.json -- src/icons && node generate-index.js build/web && rollup --config rollup.config.web.js",
     "build": "npm run build:native && npm run build:web",
     "storybook": "npm run generate-storybook && storybook dev -p 6006",
-    "generate-storybook": "node generate-stories.js web && node generate-stories.js native",
+    "generate-storybook": "node generate-storybook.js",
     "build-storybook": "storybook build",
     "release": "npx semantic-release"
   },
