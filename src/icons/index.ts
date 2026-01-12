@@ -63,11 +63,9 @@ import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
 import UserIcon from "./userIcon/userIcon.svg";
 import VerificationIcon from "./verificationIcon/verificationIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
-import DeliveryTrackIcon from "./deliveryTrackIcon/deliveryTrackIcon.svg";
 
 export {
   ArrowIcon,
-  DeliveryTrackIcon,
   BasketIcon,
   BellCroppedIcon,
   BellIcon,
