@@ -44,6 +44,8 @@
     "web/**/*.tsx",
     "build/**/*.ts",
     "build/**/*.tsx",
+    "stories/**/*.ts",
+    "stories/**/*.tsx",
     "svgr.d.ts" // svgr.d.ts необходим для того, чтобы typescript мог импортировать svg
   ],
   "exclude": ["node_modules"]

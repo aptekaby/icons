@@ -5,7 +5,13 @@ const config: StorybookConfig = {
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
-  addons: [],
+  addons: [
+    // "@chromatic-com/storybook",
+    "@storybook/addon-docs",
+    // "@storybook/addon-a11y",
+    // "@storybook/addon-vitest",
+    // "@storybook/addon-designs",
+  ],
   framework: {
     name: "@storybook/react-native-web-vite",
     options: {},
