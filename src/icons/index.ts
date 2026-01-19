@@ -38,13 +38,11 @@ import LogoIcon from "./logoIcon/logoIcon.svg";
 import LogoutIcon from "./logoutIcon/logoutIcon.svg";
 import MailIcon from "./mailIcon/mailIcon.svg";
 import MenuIcon from "./menuIcon/menuIcon.svg";
-import MinusIconBold from "./minusIconBold/minusIconBold.svg";
 import MinusIcon from "./minusIcon/minusIcon.svg";
 import OptionsIcon from "./optionsIcon/optionsIcon.svg";
 import PackageIcon from "./packageIcon/packageIcon.svg";
 import PhoneFilledIcon from "./phoneFilledIcon/phoneFilledIcon.svg";
 import PhoneIcon from "./phoneIcon/phoneIcon.svg";
-import PlusIconBold from "./plusIconBold/plusIconBold.svg";
 import PlusIcon from "./plusIcon/plusIcon.svg";
 import ProfileIcon from "./profileIcon/profileIcon.svg";
 import RadioCheckedIcon from "./radioCheckedIcon/radioCheckedIcon.svg";
@@ -63,6 +61,7 @@ import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
 import UserIcon from "./userIcon/userIcon.svg";
 import VerificationIcon from "./verificationIcon/verificationIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
+import FilterBoldIcon from "./filterBoldIcon/filterBoldIcon.svg";
 
 export {
   ArrowIcon,
@@ -105,13 +104,11 @@ export {
   LogoutIcon,
   MailIcon,
   MenuIcon,
-  MinusIconBold,
   MinusIcon,
   OptionsIcon,
   PackageIcon,
   PhoneFilledIcon,
   PhoneIcon,
-  PlusIconBold,
   PlusIcon,
   ProfileIcon,
   RadioCheckedIcon,
@@ -130,4 +127,5 @@ export {
   UserIcon,
   VerificationIcon,
   WarningIcon,
+  FilterBoldIcon,
 };
