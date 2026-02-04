@@ -115,9 +115,10 @@ const SvgInfoFilledIcon = (props) => (React.createElement("svg", { width: 16, he
     React.createElement("rect", { width: 16, height: 16, fill: "currentColor", rx: 8 }),
     React.createElement("path", { fill: "#fff", d: "M8 6.25a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V7A.75.75 0 0 1 8 6.25M8 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" })));
 
-const SvgInfoIcon = (props) => (React.createElement("svg", { width: 16, height: 16, fill: "none", color: "#FF3C6B", viewBox: "0 0 16 16", ...props },
-    React.createElement("path", { fill: "currentColor", d: "M8 6.834a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-1 0v-3.5a.5.5 0 0 1 .5-.5M8 6a.667.667 0 1 0 0-1.333A.667.667 0 0 0 8 6" }),
-    React.createElement("path", { fill: "currentColor", fillRule: "evenodd", d: "M8 14.666A6.667 6.667 0 1 0 8 1.333a6.667 6.667 0 0 0 0 13.333m0-1A5.667 5.667 0 1 0 8 2.333a5.667 5.667 0 0 0 0 11.333", clipRule: "evenodd" })));
+const SvgInfoIcon = (props) => (React.createElement("svg", { width: 16, height: 16, fill: "none", color: "#010713", viewBox: "0 0 16 16", ...props },
+    React.createElement("path", { stroke: "currentColor", strokeWidth: 1.32, d: "M8.003 13.871a5.867 5.867 0 1 0 0-11.733 5.867 5.867 0 0 0 0 11.733Z" }),
+    React.createElement("path", { fill: "currentColor", d: "M8.016 5.426a.812.812 0 1 0 0-1.625.812.812 0 0 0 0 1.625" }),
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.32, d: "M8 7v4.2" })));
 
 const SvgListIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
     React.createElement("path", { fill: "currentColor", d: "M3.857 16.838c-.09.01-.273.01-.363 0-1.918-.222-1.824-3.089.125-3.15 2.056-.064 2.238 2.918.238 3.15M8.358 9.18l8.74-.008c1.194.127 1.194 1.543 0 1.67H8.42c-1.142-.098-1.18-1.504-.062-1.662M8.32 14.531l8.814-.008c1.164.167 1.135 1.543-.037 1.67H8.42c-1.118-.115-1.192-1.444-.099-1.662M8.357 3.82l8.74-.007c1.171.126 1.202 1.503.036 1.67H8.42c-1.137-.114-1.187-1.487-.062-1.663M2.59 5.855c-1.466-1.437.726-3.67 2.186-2.237 1.476 1.447-.734 3.661-2.186 2.237M3.525 8.431c2.153-.205 2.375 3.006.28 3.144-2.085.138-2.337-2.947-.28-3.144" })));
