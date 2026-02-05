@@ -2,6 +2,7 @@ export { ArrowIcon } from './arrowIcon';
 export { BasketIcon } from './basketIcon';
 export { BellCroppedIcon } from './bellCroppedIcon';
 export { BellIcon } from './bellIcon';
+export { CalendarIcon } from './calendarIcon';
 export { CartFilledIcon } from './cartFilledIcon';
 export { CartIcon } from './cartIcon';
 export { CatalogIcon } from './catalogIcon';
