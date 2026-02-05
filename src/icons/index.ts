@@ -62,10 +62,12 @@ import UserIcon from "./userIcon/userIcon.svg";
 import VerificationIcon from "./verificationIcon/verificationIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
 import FilterBoldIcon from "./filterBoldIcon/filterBoldIcon.svg";
+import CalendarIcon from "./calendarIcon/calendarIcon.svg";
 
 export {
   ArrowIcon,
   BasketIcon,
+  CalendarIcon,
   BellCroppedIcon,
   BellIcon,
   CartFilledIcon,
