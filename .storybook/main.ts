@@ -16,5 +16,17 @@ const config: StorybookConfig = {
     name: "@storybook/react-native-web-vite",
     options: {},
   },
+  staticDirs: ["../public"],
+  viteFinal: async (config) => {
+    return {
+      ...config,
+      define: {
+        ...config.define,
+        __dirname: JSON.stringify(process.cwd()),
+      },
+      //
+    };
+  },
 };
+
 export default config;
