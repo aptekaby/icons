@@ -63,11 +63,15 @@ import VerificationIcon from "./verificationIcon/verificationIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
 import FilterBoldIcon from "./filterBoldIcon/filterBoldIcon.svg";
 import CalendarIcon from "./calendarIcon/calendarIcon.svg";
+import CopyIcon from "./copyIcon/copyIcon.svg";
+import ShareIcon from "./shareIcon/shareIcon.svg";
 
 export {
   ArrowIcon,
   BasketIcon,
   CalendarIcon,
+  CopyIcon,
+  ShareIcon,
   BellCroppedIcon,
   BellIcon,
   CartFilledIcon,
