@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  icons-storybook:
+    container_name: icons-storybook
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - "89:89"
+    restart: always
