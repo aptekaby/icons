@@ -18,7 +18,7 @@ FROM nginx:alpine
 
 COPY --from=builder /app/storybook-static /usr/share/nginx/html
 
-COPY docker/storybook/nginx.conf /etc/nginx/conf.d/default.conf
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 89
 
