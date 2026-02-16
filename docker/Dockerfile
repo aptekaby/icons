@@ -11,7 +11,8 @@ RUN \
   fi
 
 COPY . .
-
+RUN npm run build
+RUN npm run generate-storybook
 RUN npm run build-storybook
 
 FROM nginx:alpine
