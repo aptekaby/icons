@@ -19,6 +19,7 @@ import EmptyBoxIcon from "./emptyBoxIcon/emptyBoxIcon.svg";
 import ErrorIcon from "./errorIcon/errorIcon.svg";
 import EyeClosedIcon from "./eyeClosedIcon/eyeClosedIcon.svg";
 import EyeOpenedIcon from "./eyeOpenedIcon/eyeOpenedIcon.svg";
+import FacebookIcon from "./facebookIcon/facebookIcon.svg";
 import FavouriteFilledIcon from "./favouriteFilledIcon/favouriteFilledIcon.svg";
 import FavouriteIcon from "./favouriteIcon/favouriteIcon.svg";
 import FavouriteWhiteBasedIcon from "./favouriteWhiteBasedIcon/favouriteWhiteBasedIcon.svg";
@@ -29,6 +30,7 @@ import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
 import ImagePlaceholderIcon from "./imagePlaceholderIcon/imagePlaceholderIcon.svg";
 import InfoFilledIcon from "./infoFilledIcon/infoFilledIcon.svg";
 import InfoIcon from "./infoIcon/infoIcon.svg";
+import InstagramIcon from "./instagramIcon/instagramIcon.svg";
 import ListIcon from "./listIcon/listIcon.svg";
 import LocationArrowIcon from "./locationArrowIcon/locationArrowIcon.svg";
 import LocationFilledIcon from "./locationFilledIcon/locationFilledIcon.svg";
@@ -39,6 +41,7 @@ import LogoutIcon from "./logoutIcon/logoutIcon.svg";
 import MailIcon from "./mailIcon/mailIcon.svg";
 import MenuIcon from "./menuIcon/menuIcon.svg";
 import MinusIcon from "./minusIcon/minusIcon.svg";
+import OdnoklassnikiIcon from "./OdnoklassnikiIcon/OdnoklassnikiIcon.svg";
 import OptionsIcon from "./optionsIcon/optionsIcon.svg";
 import PackageIcon from "./packageIcon/packageIcon.svg";
 import PhoneFilledIcon from "./phoneFilledIcon/phoneFilledIcon.svg";
@@ -55,12 +58,16 @@ import ShortLogoIcon from "./shortLogoIcon/shortLogoIcon.svg";
 import SortingIcon from "./sortingIcon/sortingIcon.svg";
 import SpecialOfferIcon from "./specialOfferIcon/specialOfferIcon.svg";
 import SplashCirclesIcon from "./splashCirclesIcon/splashCirclesIcon.svg";
+import ThreadsIcon from "./threadsIcon/threadsIcon.svg";
+import TikTokIcon from "./tiktokIcon/tiktokIcon.svg";
 import TrashIcon from "./trashIcon/trashIcon.svg";
 import TriangleIcon from "./triangleIcon/triangleIcon.svg";
 import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
 import UserIcon from "./userIcon/userIcon.svg";
 import VerificationIcon from "./verificationIcon/verificationIcon.svg";
+import VkIcon from "./vkIcon/vkIcon.svg";
 import WarningIcon from "./warningIcon/warningIcon.svg";
+import YouTubeIcon from "./youtubeIcon/youtubeIcon.svg";
 import FilterBoldIcon from "./filterBoldIcon/filterBoldIcon.svg";
 import CalendarIcon from "./calendarIcon/calendarIcon.svg";
 import CopyIcon from "./copyIcon/copyIcon.svg";
@@ -91,6 +98,7 @@ export {
   ErrorIcon,
   EyeClosedIcon,
   EyeOpenedIcon,
+  FacebookIcon,
   FavouriteFilledIcon,
   FavouriteIcon,
   FavouriteWhiteBasedIcon,
@@ -101,6 +109,7 @@ export {
   ImagePlaceholderIcon,
   InfoFilledIcon,
   InfoIcon,
+  InstagramIcon,
   ListIcon,
   LocationArrowIcon,
   LocationFilledIcon,
@@ -111,6 +120,7 @@ export {
   MailIcon,
   MenuIcon,
   MinusIcon,
+  OdnoklassnikiIcon,
   OptionsIcon,
   PackageIcon,
   PhoneFilledIcon,
@@ -127,11 +137,15 @@ export {
   SortingIcon,
   SpecialOfferIcon,
   SplashCirclesIcon,
+  ThreadsIcon,
+  TikTokIcon,
   TrashIcon,
   TriangleIcon,
   UpdateAppIcon,
   UserIcon,
   VerificationIcon,
+  VkIcon,
   WarningIcon,
+  YouTubeIcon,
   FilterBoldIcon,
 };
