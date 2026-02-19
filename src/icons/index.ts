@@ -59,7 +59,7 @@ import SortingIcon from "./sortingIcon/sortingIcon.svg";
 import SpecialOfferIcon from "./specialOfferIcon/specialOfferIcon.svg";
 import SplashCirclesIcon from "./splashCirclesIcon/splashCirclesIcon.svg";
 import ThreadsIcon from "./threadsIcon/threadsIcon.svg";
-import TikTokIcon from "./tiktokIcon/tiktokIcon.svg";
+import TikTokIcon from "./tikTokIcon/tikTokIcon.svg";
 import TrashIcon from "./trashIcon/trashIcon.svg";
 import TriangleIcon from "./triangleIcon/triangleIcon.svg";
 import UpdateAppIcon from "./updateAppIcon/updateAppIcon.svg";
