@@ -1,4 +1,3 @@
-export { OdnoklassnikiIcon } from './OdnoklassnikiIcon';
 export { ArrowIcon } from './arrowIcon';
 export { BasketIcon } from './basketIcon';
 export { BellCroppedIcon } from './bellCroppedIcon';
@@ -45,6 +44,7 @@ export { LogoutIcon } from './logoutIcon';
 export { MailIcon } from './mailIcon';
 export { MenuIcon } from './menuIcon';
 export { MinusIcon } from './minusIcon';
+export { OdnoklassnikiIcon } from './odnoklassnikiIcon';
 export { OptionsIcon } from './optionsIcon';
 export { PackageIcon } from './packageIcon';
 export { PhoneFilledIcon } from './phoneFilledIcon';
@@ -71,4 +71,4 @@ export { UserIcon } from './userIcon';
 export { VerificationIcon } from './verificationIcon';
 export { VkIcon } from './vkIcon';
 export { WarningIcon } from './warningIcon';
-export { YoutubeIcon } from './youtubeIcon';
+export { YouTubeIcon } from './youTubeIcon';
