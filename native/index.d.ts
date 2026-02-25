@@ -1,4 +1,5 @@
 export { ArrowIcon } from './arrowIcon';
+export { BagIcon } from './bagIcon';
 export { BasketIcon } from './basketIcon';
 export { BellCroppedIcon } from './bellCroppedIcon';
 export { BellIcon } from './bellIcon';

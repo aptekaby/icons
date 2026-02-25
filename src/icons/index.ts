@@ -1,4 +1,5 @@
 import ArrowIcon from "./arrowIcon/arrowIcon.svg";
+import BagIcon from "./bagIcon/bagIcon.svg";
 import BasketIcon from "./basketIcon/basketIcon.svg";
 import BellCroppedIcon from "./bellCroppedIcon/bellCroppedIcon.svg";
 import BellIcon from "./bellIcon/bellIcon.svg";
@@ -75,6 +76,7 @@ import ShareIcon from "./shareIcon/shareIcon.svg";
 
 export {
   ArrowIcon,
+  BagIcon,
   BasketIcon,
   CalendarIcon,
   CopyIcon,
