@@ -73,6 +73,7 @@ import FilterBoldIcon from "./filterBoldIcon/filterBoldIcon.svg";
 import CalendarIcon from "./calendarIcon/calendarIcon.svg";
 import CopyIcon from "./copyIcon/copyIcon.svg";
 import ShareIcon from "./shareIcon/shareIcon.svg";
+import UnlinkIcon from "./unlinkIcon/unlinkIcon.svg";
 
 export {
   ArrowIcon,
@@ -150,4 +151,5 @@ export {
   WarningIcon,
   YouTubeIcon,
   FilterBoldIcon,
+  UnlinkIcon,
 };
