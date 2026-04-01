@@ -67,6 +67,7 @@ export { ThreadsIcon } from './threadsIcon';
 export { TikTokIcon } from './tikTokIcon';
 export { TrashIcon } from './trashIcon';
 export { TriangleIcon } from './triangleIcon';
+export { UnlinkIcon } from './unlinkIcon';
 export { UpdateAppIcon } from './updateAppIcon';
 export { UserIcon } from './userIcon';
 export { VerificationIcon } from './verificationIcon';
