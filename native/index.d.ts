@@ -57,6 +57,7 @@ export { RadioIcon } from './radioIcon';
 export { RoundCloseIcon } from './roundCloseIcon';
 export { SaleGradientIcon } from './saleGradientIcon';
 export { SaleIcon } from './saleIcon';
+export { SearchBoldIcon } from './searchBoldIcon';
 export { SearchIcon } from './searchIcon';
 export { ShareIcon } from './shareIcon';
 export { ShortLogoIcon } from './shortLogoIcon';
