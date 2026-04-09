@@ -232,8 +232,9 @@ const SvgSearchBoldIcon = (props) => (React.createElement("svg", { width: 20, he
     React.createElement("circle", { cx: 9.051, cy: 8.85, r: 6.25, stroke: "currentColor", strokeWidth: 2 }),
     React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 2, d: "m13.102 13.6 4 4" })));
 
-const SvgSearchIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 1.88, d: "m16.5 16.5-4.462-4.462m0 0a5.293 5.293 0 1 1-7.486-7.486 5.293 5.293 0 0 1 7.486 7.486" })));
+const SvgSearchIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", viewBox: "0 0 20 20", ...props },
+    React.createElement("path", { stroke: "#010713", strokeWidth: 1.85, d: "M9.18 14.54a5.68 5.68 0 1 0 0-11.36 5.68 5.68 0 0 0 0 11.36Z" }),
+    React.createElement("path", { stroke: "#010713", strokeLinecap: "round", strokeWidth: 1.85, d: "m12.86 13.18 3.64 3.64" })));
 
 const SvgShareIcon = (props) => (React.createElement("svg", { width: 24, height: 24, fill: "none", color: "#010713", viewBox: "0 0 24 24", ...props },
     React.createElement("path", { stroke: "currentColor", strokeLinejoin: "round", strokeWidth: 1.8, d: "m14.367 18.154 7.172-7.172a.26.26 0 0 0 0-.368l-7.173-7.172a.26.26 0 0 0-.443.184v3.676a.266.266 0 0 1-.25.262C5.167 8.15 2.581 14.21 2.26 17.82c-.023.249.292.36.458.173 3.122-3.503 8.397-4.115 10.968-3.963a.255.255 0 0 1 .238.256v3.683c0 .232.28.348.444.184Z" })));
