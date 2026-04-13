@@ -13,6 +13,7 @@ export { ChevronIcon } from './chevronIcon';
 export { ClockIcon } from './clockIcon';
 export { CloseIcon } from './closeIcon';
 export { CompleteStepIcon } from './completeStepIcon';
+export { CopyFilledIcon } from './copyFilledIcon';
 export { CopyIcon } from './copyIcon';
 export { CreditCardIcon } from './creditCardIcon';
 export { DeliveryCancelledIcon } from './deliveryCancelledIcon';
