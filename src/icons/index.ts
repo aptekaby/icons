@@ -75,6 +75,7 @@ import CopyIcon from "./copyIcon/copyIcon.svg";
 import ShareIcon from "./shareIcon/shareIcon.svg";
 import UnlinkIcon from "./unlinkIcon/unlinkIcon.svg";
 import SearchBoldIcon from "./searchBoldIcon/searchBoldIcon.svg";
+import CopyFilledIcon from "./copyFilledIcon/copyFilledIcon.svg";
 
 export {
   ArrowIcon,
@@ -154,4 +155,5 @@ export {
   FilterBoldIcon,
   UnlinkIcon,
   SearchBoldIcon,
+  CopyFilledIcon,
 };
