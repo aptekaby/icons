@@ -55,6 +55,7 @@ export { PlusIcon } from './plusIcon';
 export { ProfileIcon } from './profileIcon';
 export { RadioCheckedIcon } from './radioCheckedIcon';
 export { RadioIcon } from './radioIcon';
+export { ReloadIcon } from './reloadIcon';
 export { RoundCloseIcon } from './roundCloseIcon';
 export { SaleGradientIcon } from './saleGradientIcon';
 export { SaleIcon } from './saleIcon';
