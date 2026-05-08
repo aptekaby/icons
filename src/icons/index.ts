@@ -76,6 +76,7 @@ import ShareIcon from "./shareIcon/shareIcon.svg";
 import UnlinkIcon from "./unlinkIcon/unlinkIcon.svg";
 import SearchBoldIcon from "./searchBoldIcon/searchBoldIcon.svg";
 import CopyFilledIcon from "./copyFilledIcon/copyFilledIcon.svg";
+import ReloadIcon from "./reloadIcon/reloadIcon.svg";
 
 export {
   ArrowIcon,
@@ -156,4 +157,5 @@ export {
   UnlinkIcon,
   SearchBoldIcon,
   CopyFilledIcon,
+  ReloadIcon,
 };
