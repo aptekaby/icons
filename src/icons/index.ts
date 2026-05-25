@@ -83,6 +83,7 @@ import FilterIcon2 from "./filterIcon2/filterIcon2.svg";
 import SortingIcon2 from "./sortingIcon2/sortingIcon2.svg";
 import ChevronIcon2 from "./chevronIcon2/chevronIcon2.svg";
 import ListIcon2 from "./listIcon2/listIcon2.svg";
+import CloseIcon2 from "./closeIcon2/closeIcon2.svg";
 
 export {
   ArrowIcon,
@@ -170,4 +171,5 @@ export {
   SortingIcon2,
   ChevronIcon2,
   ListIcon2,
+  CloseIcon2,
 };

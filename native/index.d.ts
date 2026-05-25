@@ -14,6 +14,7 @@ export { ChevronIcon } from './chevronIcon';
 export { ChevronIcon2 } from './chevronIcon2';
 export { ClockIcon } from './clockIcon';
 export { CloseIcon } from './closeIcon';
+export { CloseIcon2 } from './closeIcon2';
 export { CompleteStepIcon } from './completeStepIcon';
 export { CopyFilledIcon } from './copyFilledIcon';
 export { CopyIcon } from './copyIcon';
