@@ -40,6 +40,7 @@ export { InfoFilledIcon } from './infoFilledIcon';
 export { InfoIcon } from './infoIcon';
 export { InstagramIcon } from './instagramIcon';
 export { ListIcon } from './listIcon';
+export { ListIcon2 } from './listIcon2';
 export { LocationArrowIcon } from './locationArrowIcon';
 export { LocationFilledIcon } from './locationFilledIcon';
 export { LocationIcon } from './locationIcon';
