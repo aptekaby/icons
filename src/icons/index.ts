@@ -8,7 +8,6 @@ import CartIcon from "./cartIcon/cartIcon.svg";
 import CatalogIcon from "./catalogIcon/catalogIcon.svg";
 import CheckboxIcon from "./checkboxIcon/checkboxIcon.svg";
 import CheckboxPressedIcon from "./checkboxPressedIcon/checkboxPressedIcon.svg";
-import ChevronBoldIcon from "./ChevronBoldIcon/ChevronBoldIcon.svg";
 import ChevronIcon from "./chevronIcon/chevronIcon.svg";
 import ClockIcon from "./clockIcon/clockIcon.svg";
 import CloseIcon from "./closeIcon/closeIcon.svg";
@@ -26,7 +25,6 @@ import FavouriteFilledIcon from "./favouriteFilledIcon/favouriteFilledIcon.svg";
 import FavouriteIcon from "./favouriteIcon/favouriteIcon.svg";
 import FavouriteWhiteBasedIcon from "./favouriteWhiteBasedIcon/favouriteWhiteBasedIcon.svg";
 import FilterIcon from "./filterIcon/filterIcon.svg";
-import FilterIcon2 from "./filterIcon2/filterIcon2.svg";
 import GridIcon from "./gridIcon/gridIcon.svg";
 import HomeIcon from "./homeIcon/homeIcon.svg";
 import HorizontalGridIcon from "./horizontalGridIcon/horizontalGridIcon.svg";
@@ -57,7 +55,6 @@ import RoundCloseIcon from "./roundCloseIcon/roundCloseIcon.svg";
 import SaleGradientIcon from "./saleGradientIcon/saleGradientIcon.svg";
 import SaleIcon from "./saleIcon/saleIcon.svg";
 import SearchIcon from "./searchIcon/searchIcon.svg";
-import SearchIcon2 from "./searchIcon2/searchIcon2.svg";
 import ShortLogoIcon from "./shortLogoIcon/shortLogoIcon.svg";
 import SortingIcon from "./sortingIcon/sortingIcon.svg";
 import SpecialOfferIcon from "./specialOfferIcon/specialOfferIcon.svg";
@@ -95,7 +92,6 @@ export {
   CatalogIcon,
   CheckboxIcon,
   CheckboxPressedIcon,
-  ChevronBoldIcon,
   ChevronIcon,
   ClockIcon,
   CloseIcon,
@@ -113,7 +109,6 @@ export {
   FavouriteIcon,
   FavouriteWhiteBasedIcon,
   FilterIcon,
-  FilterIcon2,
   GridIcon,
   HomeIcon,
   HorizontalGridIcon,
@@ -144,7 +139,6 @@ export {
   SaleGradientIcon,
   SaleIcon,
   SearchIcon,
-  SearchIcon2,
   ShortLogoIcon,
   SortingIcon,
   SpecialOfferIcon,
