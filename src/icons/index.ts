@@ -77,6 +77,11 @@ import UnlinkIcon from "./unlinkIcon/unlinkIcon.svg";
 import SearchBoldIcon from "./searchBoldIcon/searchBoldIcon.svg";
 import CopyFilledIcon from "./copyFilledIcon/copyFilledIcon.svg";
 import ReloadIcon from "./reloadIcon/reloadIcon.svg";
+import ArrowIcon2 from "./arrowIcon2/arrowIcon2.svg";
+import SearchIcon2 from "./searchIcon2/searchIcon2.svg";
+import FilterIcon2 from "./filterIcon2/filterIcon2.svg";
+import SortingIcon2 from "./sortingIcon2/sortingIcon2.svg";
+import ChevronIcon2 from "./chevronIcon2/chevronIcon2.svg";
 
 export {
   ArrowIcon,
@@ -158,4 +163,9 @@ export {
   SearchBoldIcon,
   CopyFilledIcon,
   ReloadIcon,
+  ArrowIcon2,
+  SearchIcon2,
+  FilterIcon2,
+  SortingIcon2,
+  ChevronIcon2,
 };
