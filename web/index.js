@@ -4,7 +4,7 @@ const SvgArrowIcon = (props) => (React.createElement("svg", { width: 16, height:
     React.createElement("path", { fill: "currentColor", d: "M2.402 8.8h9.488l-2.904 3.487a.801.801 0 0 0 1.232 1.024l4-4.8a1 1 0 0 0 .072-.12c0-.04 0-.064.056-.104A.8.8 0 0 0 14.402 8a.8.8 0 0 0-.056-.288c0-.04 0-.064-.056-.104a1 1 0 0 0-.072-.12l-4-4.8a.8.8 0 0 0-1.341.172.8.8 0 0 0 .11.852L11.89 7.2H2.402a.8.8 0 1 0 0 1.6" })));
 
 const SvgArrowIcon2 = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M3 10h14m0 0-5-5m5 5-5 5" })));
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M3 10h13.5m.5 0-6-6m6 6-6 6" })));
 
 const SvgBagIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
     React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.6, d: "M6.654 6.593v-.839a3.356 3.356 0 1 1 6.712 0v.84m-.839 5.033V9.95m-5.034 1.678V9.95" }),
@@ -266,8 +266,8 @@ const SvgSearchIcon = (props) => (React.createElement("svg", { width: 20, height
     React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.85, d: "m12.86 13.18 3.64 3.64" })));
 
 const SvgSearchIcon2 = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement("circle", { cx: 9, cy: 9, r: 6.25, stroke: "currentColor", strokeWidth: 2 }),
-    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 2, d: "m13.42 13.42 3.83 3.83" })));
+    React.createElement("circle", { cx: 9, cy: 9, r: 6.5, stroke: "currentColor", strokeWidth: 2 }),
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 2, d: "m14 14 3.5 3.5" })));
 
 const SvgShareIcon = (props) => (React.createElement("svg", { width: 24, height: 24, fill: "none", color: "#010713", viewBox: "0 0 24 24", ...props },
     React.createElement("path", { stroke: "currentColor", strokeLinejoin: "round", strokeWidth: 1.8, d: "m14.367 18.154 7.172-7.172a.26.26 0 0 0 0-.368l-7.173-7.172a.26.26 0 0 0-.443.184v3.676a.266.266 0 0 1-.25.262C5.167 8.15 2.581 14.21 2.26 17.82c-.023.249.292.36.458.173 3.122-3.503 8.397-4.115 10.968-3.963a.255.255 0 0 1 .238.256v3.683c0 .232.28.348.444.184Z" })));
