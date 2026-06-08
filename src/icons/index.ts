@@ -84,6 +84,7 @@ import SortingIcon2 from "./sortingIcon2/sortingIcon2.svg";
 import ChevronIcon2 from "./chevronIcon2/chevronIcon2.svg";
 import ListIcon2 from "./listIcon2/listIcon2.svg";
 import CloseIcon2 from "./closeIcon2/closeIcon2.svg";
+import ChatIcon from "./chatIcon/chatIcon.svg";
 
 export {
   ArrowIcon,
@@ -172,4 +173,5 @@ export {
   ChevronIcon2,
   ListIcon2,
   CloseIcon2,
+  ChatIcon,
 };

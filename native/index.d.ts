@@ -8,6 +8,7 @@ export { CalendarIcon } from './calendarIcon';
 export { CartFilledIcon } from './cartFilledIcon';
 export { CartIcon } from './cartIcon';
 export { CatalogIcon } from './catalogIcon';
+export { ChatIcon } from './chatIcon';
 export { CheckboxIcon } from './checkboxIcon';
 export { CheckboxPressedIcon } from './checkboxPressedIcon';
 export { ChevronIcon } from './chevronIcon';
