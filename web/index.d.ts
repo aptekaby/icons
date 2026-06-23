@@ -9,6 +9,7 @@ export { CartFilledIcon } from './cartFilledIcon';
 export { CartIcon } from './cartIcon';
 export { CatalogIcon } from './catalogIcon';
 export { ChatIcon } from './chatIcon';
+export { ChatUnavailableIcon } from './chatUnavailableIcon';
 export { ChatUnreadIcon } from './chatUnreadIcon';
 export { CheckboxIcon } from './checkboxIcon';
 export { CheckboxPressedIcon } from './checkboxPressedIcon';
