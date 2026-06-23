@@ -85,6 +85,8 @@ import ChevronIcon2 from "./chevronIcon2/chevronIcon2.svg";
 import ListIcon2 from "./listIcon2/listIcon2.svg";
 import CloseIcon2 from "./closeIcon2/closeIcon2.svg";
 import ChatIcon from "./chatIcon/chatIcon.svg";
+import ChatUnreadIcon from "./chatUnreadIcon/chatUnreadIcon.svg";
+import ChatUnavailableIcon from "./chatUnavailableIcon/chatUnavailableIcon.svg";
 
 export {
   ArrowIcon,
@@ -174,4 +176,6 @@ export {
   ListIcon2,
   CloseIcon2,
   ChatIcon,
+  ChatUnreadIcon,
+  ChatUnavailableIcon,
 };
