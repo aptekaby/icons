@@ -136,10 +136,11 @@ const SvgFilterBoldIcon = (props) => (React.createElement("svg", { width: 20, he
     React.createElement("path", { fill: "currentColor", stroke: "currentColor", strokeWidth: 0.88, d: "M8.53 13.46H1.39c-.24 0-.44.2-.44.44s.2.44.44.44h7.14c.24 0 .44-.2.44-.44s-.2-.44-.44-.44ZM18.61 13.46h-1.74c-.24 0-.44.2-.44.44s.2.44.44.44h1.74c.24 0 .44-.2.44-.44s-.2-.44-.44-.44Z" })));
 
 const SvgFilterIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement("path", { stroke: "currentColor", strokeWidth: 1.736, d: "M12.624 15.698a2.032 2.032 0 1 0 0-4.064 2.032 2.032 0 0 0 0 4.064Z" }),
-    React.createElement("path", { stroke: "currentColor", strokeWidth: 0.835, d: "M1.836 14.075h5.899a.417.417 0 1 0 0-.835H1.836a.417.417 0 1 0 0 .835Z" }),
-    React.createElement("path", { stroke: "currentColor", strokeWidth: 1.67, d: "M7.395 8.234a2.066 2.066 0 1 0 0-4.133 2.066 2.066 0 0 0 0 4.133Z" }),
-    React.createElement("path", { fill: "currentColor", stroke: "currentColor", strokeWidth: 0.835, d: "M18.166 5.683H12.27a.417.417 0 1 0 0 .835h5.897a.417.417 0 1 0 0-.835ZM4.665 5.683h-2.83a.417.417 0 1 0 0 .835h2.83a.418.418 0 0 0 0-.835ZM18.165 13.246h-2.83a.417.417 0 1 0 0 .835h2.83a.417.417 0 1 0 0-.835Z" })));
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.65, d: "M2.5 6h2" }),
+    React.createElement("path", { stroke: "currentColor", strokeWidth: 1.65, d: "M9.3 6a2.3 2.3 0 1 1-4.601 0 2.3 2.3 0 0 1 4.6 0Z" }),
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.65, d: "M9.5 6h8M2.5 14h5" }),
+    React.createElement("path", { stroke: "currentColor", strokeWidth: 1.65, d: "M15.3 14a2.3 2.3 0 1 1-4.601 0 2.3 2.3 0 0 1 4.6 0Z" }),
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 1.65, d: "M15.5 14h2" })));
 
 const SvgFilterIcon2 = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
     React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeWidth: 2, d: "M2.5 6h2" }),
@@ -293,7 +294,7 @@ const SvgShortLogoIcon = (props) => (React.createElement("svg", { width: 192, he
             React.createElement("path", { fill: "currentColor", d: "M0 0h192v192H0z" })))));
 
 const SvgSortingIcon = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
-    React.createElement("path", { fill: "#fff", stroke: "currentColor", strokeWidth: 0.875, d: "M5.624 3.438c.116 0 .228.045.31.127L9.428 7.06a.437.437 0 0 1-.62.619l-2-2.001-.746-.747v11.194a.438.438 0 1 1-.875 0V4.931L2.438 7.679a.438.438 0 0 1-.619-.62l3.495-3.494a.44.44 0 0 1 .31-.127Zm8.75 0a.44.44 0 0 1 .438.437v11.194l.747-.747 2-2.002v.001a.437.437 0 0 1 .619.619l-3.494 3.495a.44.44 0 0 1-.62 0L10.57 12.94h.001a.438.438 0 0 1 .618-.62l2.002 2.002.747.747V3.875a.44.44 0 0 1 .437-.437Z" })));
+    React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 1.65, d: "M5.5 16.5v-13m3 3-3-3-3 3M14.5 3.5v13m3-3-3 3-3-3" })));
 
 const SvgSortingIcon2 = (props) => (React.createElement("svg", { width: 20, height: 20, fill: "none", color: "#010713", viewBox: "0 0 20 20", ...props },
     React.createElement("path", { stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5.5 16.5v-13m0 0-3 3m3-3 3 3M14.5 3.5v13m0 0-3-3m3 3 3-3" })));
