@@ -53,6 +53,7 @@ export { LogoIcon } from './logoIcon';
 export { LogoutIcon } from './logoutIcon';
 export { MailIcon } from './mailIcon';
 export { MenuIcon } from './menuIcon';
+export { MenuIcon2 } from './menuIcon2';
 export { MinusIcon } from './minusIcon';
 export { OdnoklassnikiIcon } from './odnoklassnikiIcon';
 export { OptionsIcon } from './optionsIcon';

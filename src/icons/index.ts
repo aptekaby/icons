@@ -87,6 +87,7 @@ import CloseIcon2 from "./closeIcon2/closeIcon2.svg";
 import ChatIcon from "./chatIcon/chatIcon.svg";
 import ChatUnreadIcon from "./chatUnreadIcon/chatUnreadIcon.svg";
 import ChatUnavailableIcon from "./chatUnavailableIcon/chatUnavailableIcon.svg";
+import MenuIcon2 from "./menuIcon2/menuIcon2.svg";
 
 export {
   ArrowIcon,
@@ -178,4 +179,5 @@ export {
   ChatIcon,
   ChatUnreadIcon,
   ChatUnavailableIcon,
+  MenuIcon2,
 };
